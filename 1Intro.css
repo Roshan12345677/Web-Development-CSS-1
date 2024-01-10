@@ -1,1 +1,26 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        div, span {
+            color: red;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Hey I am Roshan and today I am in CSS Mood.
+    </div>
+    <div>
+        I am Good.
+    </div>
+    <span>
+        I am also good.
+    </span>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum quibusdam, veritatis inventore nihil molestias, quis recusandae distinctio officia tempora iusto atque quidem et nulla tempore necessitatibus fugiat amet, nisi magnam ad odit ratione iste praesentium! Molestias velit consequatur libero possimus ut consectetur doloribus?</p>
+</body>
+</html>
