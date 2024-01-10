@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linking of CSS in HTML</title>
+    <!-- <style>
+        h1{
+            background-color: rgb(216, 100, 100);
+            color: yellow;
+        }
+    </style> -->
+    <!-- the above style is Internal CSS it is better way to style CSS than Inline CSS and it is useful for small webpage -->
 
+    <link rel="stylesheet" href="3link.css">
+    <!-- the above style is external CSS it create a external css file in which we style our html and it is best way to style any CSS. -->
+</head>
+<body>
+    <!-- <h1 style="color: yellow; background-color: red;">Three ways to add CSS to HTML</h1> -->
+    <!-- the above style is Inline CSS and it is not more useful-->
+    <h1>Three ways to add CSS to HTML.</h1>
+    <div>
+        <ol>
+            <li>Inline CSS</li>
+            <li>Internal CSS</li>
+            <li>External CSS</li>
+        </ol>
+    </div>
+    <div>
+        I am a good boy.
+    </div>
+    <p>
+        Everyone is good in  some way or the other. Does this even make any sense?
+    </p>
+</body>
+</html>
